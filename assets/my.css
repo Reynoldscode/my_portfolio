@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+#background{
+  background-color: bisque;
+}
+
+header{ 
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  color: white;
+  background-color: rgb(4, 4, 62);}
+  
+  footer{
+    display: flex;
+    background-color: rgb(1, 1, 15);
+    color: aliceblue;
+    justify-content: space-around
+  }
