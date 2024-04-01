@@ -1,10 +1,14 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  margin-top: 0;
 }
 
 #background{
   background-color: bisque;
 }
+
+
 
 header{ 
   display:flex;
@@ -13,6 +17,10 @@ header{
   padding-inline: 20px;
   color: white;
   background-color: rgb(4, 4, 62);}
+
+
+
+
   
   footer{
     display: flex;
