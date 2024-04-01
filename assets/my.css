@@ -7,22 +7,48 @@
 #background{
   background-color: bisque;
 }
-
+/* creating hero image */
 .hero-image{
-  height: 50%;
+  height: 450px;
   background-image: url(./reypng.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+/* adjust size of image */
 
+img{
+  display: flex;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: rgb(223, 134, 17);
+  padding: 20px;
+  justify-content: center;
+  width:350px;
+  height: 350px;
 }
 
 
+/* display menu to lay in line */
+li{
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 1em;
+  padding-left: 30px;
+  list-style-type: none;}
+
+a{
+  color: aliceblue;
+}
+/* added hover effect to menu*/
+.menu li:hover{background-color: gold;
+background-position: center;}
 
 header{ 
   display:flex;
   align-items: center;
+  height: 60px;
   justify-content: space-between;
   padding-inline: 20px;
   color: white;
@@ -30,11 +56,11 @@ header{
 
 
 
-
   footer{
     display: flex;
     height: 60px;
+    padding-top:  20px;
     background-color: rgb(1, 1, 15);
     color: aliceblue;
-    justify-content: space-around
+    justify-content: center
   } 
