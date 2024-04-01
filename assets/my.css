@@ -43,6 +43,13 @@ a{
 .menu li:hover{background-color: gold;
 background-position: center;}
 
+
+.text{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
 /* adjust size of image */
 img{
   display: flex;
@@ -55,12 +62,17 @@ img{
   width:350px;
   height: 350px;
 }
-
-.text{
+.gallery{
   display: flex;
-  flex-direction: column;
-  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
+.gallery a{
+flex-basis:33.33%;
+margin:8px;
+}
+
 .main{
   display: flex;
   flex-direction: row;
@@ -68,7 +80,18 @@ img{
   background-color: aqua;
 }
 
-  footer{
+/* adding the aside */
+.aside{
+  display: flex;
+  flex-wrap: wrap;
+}
+.aside img{
+  width: 100px;
+  height: 100px;
+  margin: 10px
+}
+
+footer{
     display: flex;
     height: 60px;
     padding-top:  20px;
