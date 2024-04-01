@@ -7,6 +7,16 @@
 #background{
   background-color: bisque;
 }
+/* header */
+header{ 
+  display:flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  padding-inline: 20px;
+  color: white;
+  background-color: rgb(4, 4, 62);}
+
 /* creating hero image */
 .hero-image{
   height: 450px;
@@ -15,18 +25,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-/* adjust size of image */
-
-img{
-  display: flex;
-  margin-top: 20px;
-  border-radius: 20px;
-  background-color: rgb(223, 134, 17);
-  padding: 20px;
-  justify-content: center;
-  width:350px;
-  height: 350px;
 }
 
 
@@ -45,16 +43,30 @@ a{
 .menu li:hover{background-color: gold;
 background-position: center;}
 
-header{ 
-  display:flex;
-  align-items: center;
-  height: 60px;
-  justify-content: space-between;
-  padding-inline: 20px;
-  color: white;
-  background-color: rgb(4, 4, 62);}
+/* adjust size of image */
+img{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: rgb(223, 134, 17);
+  padding: 20px;
+  justify-content: center;
+  width:350px;
+  height: 350px;
+}
 
-
+.text{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  background-color: aqua;
+}
 
   footer{
     display: flex;
