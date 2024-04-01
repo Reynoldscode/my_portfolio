@@ -8,6 +8,16 @@
   background-color: bisque;
 }
 
+.hero-image{
+  height: 50%;
+  background-image: url(./reypng.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
 
 
 header{ 
@@ -21,10 +31,10 @@ header{
 
 
 
-  
   footer{
     display: flex;
+    height: 60px;
     background-color: rgb(1, 1, 15);
     color: aliceblue;
     justify-content: space-around
-  }
+  } 
