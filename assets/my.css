@@ -26,7 +26,7 @@ header{
   background-size: cover;
   position: relative;
 }
-
+/*  hover */
 
 /* display menu to lay in line */
 li{
@@ -44,6 +44,12 @@ a{
 background-position: center;}
 
 
+a:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.5);
+}
+
 .text{
   display: flex;
   flex-direction: column;
@@ -54,7 +60,7 @@ background-position: center;}
 img{
   display: flex;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 20px;
   background-color: rgb(250, 248, 245);
   padding: 20px;
@@ -67,12 +73,15 @@ img{
   flex-wrap: wrap;
   justify-content: center;
 
+
 }
 .gallery a{
 flex-basis:33.33%;
 margin:8px;
 }
 
+
+/* main */
 .main{
   display: flex;
   flex-direction: row;
@@ -104,3 +113,17 @@ footer{
     color: aliceblue;
     justify-content: center
   } 
+
+  @media screen and (max-width:992px){
+    header{background-color: rgb(2, 44, 2);
+      h3 h1 h4{
+        color: rgb(39, 6, 69);
+      }
+
+    }
+    
+  }@media screen and (min-width:768px){
+    body{min-width: 100px}
+    body h3 h1 h4{color: gold;}
+  }
+  
